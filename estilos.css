@@ -1,0 +1,135 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+header {
+    background-color: #333; /* Color de fondo del encabezado */
+    color: white; /* Color del texto del encabezado */
+    padding: 10px 0; /* Espaciado interno superior e inferior */
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logo {
+    border-radius: 5px;
+  
+}
+
+.social-icons {
+
+    margin-top: 10px; /* Espacio superior entre el logotipo y los iconos sociales */
+}
+
+.social-icons a {
+    color: white; /* Color de los enlaces a redes sociales */
+    text-decoration: none; /* Quita la subrayado de los enlaces */
+    margin: 0 10px; /* Espacio entre los enlaces */
+    font-size: 24px; /* Tamaño de fuente de los iconos */
+}
+/* ------------------------Estilos para el menú -------------*/
+nav {
+    background-color: #74aa50; /* Color de fondo del menú */
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center; /* Alinea el contenido del menú en el centro */
+}
+
+li {
+    display: inline-block; /* Coloca los elementos en línea */
+}
+
+li a {
+    display: block;
+    color: black; /* Color del texto del menú */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #555; /* Color de fondo al pasar el mouse */
+}
+
+
+/*aqui emopieza el main*/
+main{
+    padding-top: 15px;
+    text-align: center;
+}
+
+#lider{
+    width: 200px;
+    height: 300px;
+}
+
+
+
+
+
+
+/* Estilos generales del footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    
+}
+
+.container {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* Estilos para la sección de contacto */
+.contacto {
+    flex: 1;
+    padding: 20px;
+}
+
+.contacto h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.contacto ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contacto li {
+    margin-bottom: 5px;
+}
+
+/* Estilos para la sección de dirección */
+.direccion {
+    flex: 1;
+    padding: 20px;
+}
+
+.direccion h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Estilos para la dirección postal */
+address {
+    font-style: normal;
+}
+
+/* Estilos para los enlaces de correo electrónico y teléfono */
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

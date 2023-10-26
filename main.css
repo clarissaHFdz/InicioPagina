@@ -1,0 +1,75 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+#main,#menu{
+    display: flex;
+    border: solid;
+    justify-content: center;
+}
+
+/*Aqui empieza el header*/
+#redes{
+    display: flex;
+    align-items: center;
+    width: 33vw;
+    gap: 2vw;
+}
+
+
+  #header{
+    display: flex;
+    justify-content: space-between;
+  }
+
+#menu{
+    display: flex;
+    height: 4vh;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+  #logoRaul{
+    padding-left: 10vw;
+ }
+#face,#insta,#tiktok,#youtube,#twitter{
+    width: 32px; /* Ancho de la imagen de icono */
+    height: 32px; /* Altura de la imagen de icono */
+}
+#twitter{
+    border-radius: 10px;
+}
+
+/*Aqui empieza el main*/
+
+#introduccion{
+    display: flex;
+}
+#masInfo{
+    text-align: center;
+}
+
+/*Aqui empieza el footer*/
+#articulos{
+    display: flex;
+}
+
+
+
+#contacto{
+    text-align: center;
+    background-color: #aaa;
+}
+
+#contacto > section{
+    display: flex;
+    border: solid;
+    justify-content: space-around;
+    
+}
+#contacto1,#contacto2{
+}
